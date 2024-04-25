@@ -1,8 +1,12 @@
-// ===== Latihan 3 =====
-// buat module untuk memanipulasi data (write & read)
-const {readData, writeData} = require("./people.js")
-writeData()
-readData()
+// ===== Latihan 4 =====
+const {setInitialData, getData, getDetail} = require("./people.js")
+setInitialData()
+getData()
+getDetail(1)
+
+
+
+// =======================================================================
 
 // ===== dummy note =====
 // const { printData, printDataCustom} = require('./dummy')
@@ -38,7 +42,7 @@ readData()
 // });
 
 // fs.readFile("./dummy3.txt", "utf-8", (err, data) => {
-//   const parsed = data;
+//   const parsed = JSON.parse(data);
 //   console.log(parsed.name);
 // });
 
@@ -53,3 +57,11 @@ readData()
 // // ===== Latihan 2 =====
 // const volumeBalok = cuboid.cuboidVolume(5, 5, 5);
 // fs.writeFileSync("./result.txt", volumeBalok.toString(), "utf-8");
+
+// // ===== Latihan 3 =====
+// // buat module untuk memanipulasi data (write & read)
+// const {readData, writeData} = require("./people.js")
+// writeData()
+// readData()
+
+
